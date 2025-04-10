@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div class="todo-container">
+        <h1> To-Do List</h1>
+        <div class="input-group">
+            <input type="text" placeholder="Add a new task...">
+            <button>Add</button>
+        </div>
+          <div class="filters">
+            <button class="active"disabled>All</button>
+            <button disabled>Active</button>
+            <button disabled>Completed</button>
+        </div>
+        <ul class="todo-list">
+            <li>
+                <label><input type="checkbox"/>Review project proposal</label>
+                <button class="delete"disabled>Delete</button>
+            </li>
+            <li>
+                <div class="task completed">
+                    <div class="task-item">
+                <label><input type="checkbox"checked/><s>Send weekly report</s></label>
+                
+                <button class="delete-btn"disabled>Delete</button></div>
+                </div>
+               </li>
+            <li>
+             <label><input type="checkbox"/>Schdeule team meeting</label>
+             <button class="delete"disabled>Delete</button>
+            </li>
+            <li>
+                <label><input type="checkbox"/>Prepare presentation slides</label>
+                <button class="delete"disabled>Delete</button>
+            </li>
+        </ul>
+    </div>
+    
+    </body>
+    </html>
